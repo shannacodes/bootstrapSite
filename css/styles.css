@@ -1,0 +1,57 @@
+body {
+    background-color: #fffff;
+    font-family: Geologica, sans-serif;
+    color: rgb(55, 55, 55);
+}
+
+h1 {
+    font-family: Coiny, sans-serif;
+    color: #ffffff;
+}
+
+h2, h3 {
+    font-family: Geologica, sans-serif;
+    color: #240d8a;
+}
+
+h4, h5 {
+    font-family: Roboto, sans-serif;
+    color: #841b2f;
+}
+
+h6 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    /* background-image: linear-gradient(to right, #240d8a, #3312C3, #DA2C4D); */
+    background-image: linear-gradient(to bottom, rgba(105, 107, 121, 0.95), rgba(35, 22, 113, 0.95)), url("/img/rp-storefront.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-color: #240d8a;
+    color: white;
+}
+
+a {
+    color: #240d8a;
+}
+
+a:hover {
+    color: #240d8a;
+    text-decoration: underline;
+}
+
+footer {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #841b2f, #d37f8e, #cda3aa);
+    color: white;
+}
+
+#didYouKnow {
+    background-color: #fdd9df;
+}

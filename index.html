@@ -8,65 +8,148 @@
     
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        
+        <!-- External CSS -->
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coiny" />        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Geologica" />
+        <link rel="stylesheet" href="css/styles.css">
 
-        <title>NuCamp: A Better Way To Camp</title>
+        <title>Rolling Pin Donuts - Camarillo, CA</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: #ffffff;">
+        <a class="navbar-brand" href="index.html"><img src="img/rp-transparentlogo.png" width="120" alt="Rolling Pin Donuts small logo" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarRp" aria-controls="navBarRp" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+        <div class="collapse navbar-collapse" id="navBarRp">
+                <div class="navbar-nav ml-auto"> <!-- ml-auto aligns navbar links to the RIGHT -->
+                    <a class="nav-item nav-link active" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Menu</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link text-white btn btn-dark" href="https://www.clover.com/online-ordering/rolling-pin-donuts-camarillo" role="button">Order Online</a>
+                </div>
+        </div>
+    </nav>
 
-    <header>
-        <div>
-            <h1>NuCamp</h1>
-            <h2>a better way to camp</h2>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container py-3">
+            <h1 class="display-4">ROLLING PIN DONUTS</h1>
+            <p class="lead">You deserve a donut.</p><br><br>
+            <p class="lead">
+              <a class="btn btn-light btn-lg" href="https://www.clover.com/online-ordering/rolling-pin-donuts-camarillo" role="button">ORDER ONLINE</a>
+            </p>
+          </div>
         </div>
     </header>
 
-    <div>
-        <h2>Discover & Review</h2>
-        <h3>Our Campsites</h3>
-        <p>Explore our growing database of curated campsites and leave your own reviews!</p>
-    </div>
-
-    <div>
-        <h2>Featured Campsites</h2>
-        <h3>React Lake Campground</h3>
-        <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
-    </div>
-
-    <div>
-        <h2>Our Community Partners</h2>
-        <h3>Bootstrap Outfitters</h3>
-        <p>Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
-    </div>
-
-    <footer>
-        <div>
-            <h5>Links</h5>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Sites</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/colorfuldonuts.jpg" class="img-fluid" alt="Various sprinkled donuts" max-width="100%" height="auto" /> 
+            </div>
+            <div class="col-md-6 p-4">
+                <h2>Donuts baked using the best quality ingredients.</h2>
+                <p>Based in the heart of Camarillo, CA, we are proud to serve the tastiest donuts to satisfy your sweet tooth. Since 1994, we firmly believe that quality is what makes our donuts one-of-a-kind. </p>
+            </div>
         </div>
-        <div>
-            <h5>Social</h5>
-            <a href="http://instagram.com/">Instagram</a>
-            <a href="http://facebook.com/">Facebook</a>
-            <a href="http://twitter.com/">Twitter</a>
-            <a href="http://youtube.com/">YouTube</a>
+    </div>
+
+    <div class="container p-5" id="didYouKnow">
+        <div class="row">
+            <div class="col-md-6 order-sm-2">
+                <img src="img/cronut1.jpg" class="img-fluid" alt="Powdered sugar croissant donuts with filling" max-width="100%" height="auto" />     
+            </div>
+            <div class="col-md-6 p-4 order-sm-1">
+                <h2>Did you know?</h2>
+                <p>We have been voted BEST DONUT SHOP IN VENTURA COUNTY for more than 10 consecutive years.</p>
+                <p>Give our delicious donuts a taste today.</p>
+            </div>
         </div>
-        <div>
-            Tel: 1-206-555-1234<br />
-            Email: campsites@nucamp.co
+    </div>
+
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-6 p-5 text-center"> <!-- REVIEWS SLIDER -->
+                <h5>
+                    <p><em>"Top shelf donuts for sure... We especially love your cronuts, hybrid of croissant and donuts. Their simultaneous fluffiness and crunchiness is a combination of our deepest and most realest, sweet and salty cravings."</p>― Pau A., Yelp</em>
+                </h5>
+            </div>
+            <div class="col-md-6 p-4 text-center"> <!-- SIGN-UP FOR NEWSLETTER FORM -->
+                <h6>Love Our Donuts?</h6>
+                <p class="px-4"><br>Sign-up for our newsletter and be first to know about new flavors, discounts, and promotions.</p><br>
+                <div class="container">
+                    <form>
+                        <div class="form-group row" >
+                            <div class="col-4">
+                                <label for="firstName">First Name: </label>
+                            </div>
+                            <div class="col-8">
+                                <input type="text" class="form-control" id="firstName" placeholder="Enter first name here...">
+                            </div>
+                        </div>    
+                        <div class="form-group row">
+                            <div class="col-4">
+                                <label for="email">E-mail:</label>
+                            </div>
+                            <div class="col-8">
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email here...">
+                            </div>
+                        </div>
+                        <div class="form-check m-3">
+                            <input type="checkbox" class="form-check-input" id="optin" required>
+                            <label class="form-check-label" for="optin"><p style="font-size: 9pt">Yes, I would like to opt-in to receiving e-mails about updates, promotions and discounts from Rolling Pin Donuts.</p></label>
+                        </div>
+                            <button type="submit" class="btn btn-secondary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-2 text-center py-3">
+                    <h6>Social:</h6>
+                        <a href="https://www.facebook.com/RollingPinCamarillo/">Facebook</a>
+                        <br><a href="https://www.instagram.com/rollingpin.camarillo/">Instagram</a>
+                </div>
+
+                <div class="col-12 col-sm-2 text-center py-3">
+                    <h6>Links:</h6>
+                        <a href="#">Home</a>
+                        <br><a href="#">About</a>
+                        <br><a href="#">Projects</a>
+                        <br><a href="#">Contact</a>
+                        <br><a href="https://www.clover.com/online-ordering/rolling-pin-donuts-camarillo">Order</a>
+                </div>
+
+                <div class="col-12 col-sm-4 text-center py-3">
+                    <h6>Location:</h6>
+                    2153 Las Posas Rd.
+                    <br>Camarillo, CA 93010
+                    <br><a href="tel:8054828711">(805) 482-8711</a>                 
+                </div>
+
+                <div class="col-12 col-sm-4 text-center py-3">
+                    <h6>Hours:</h6>
+                    Mon - Fri: Open 24/7
+                    <br>Sat & Sun: Closed from 12-4pm
+                </div>
+            </div>
         </div>
     </footer>
-    
+
   <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
-
 </html>

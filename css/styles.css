@@ -1,5 +1,5 @@
 body {
-    background-color: #fffff;
+    background-color: #ffffff;
     font-family: Geologica, sans-serif;
     color: rgb(55, 55, 55);
 }
@@ -10,24 +10,32 @@ h1 {
 }
 
 h2, h3 {
-    font-family: Geologica, sans-serif;
+    font-family: Coiny, sans-serif;
     color: #240d8a;
+    text-transform: uppercase;
 }
 
-h4, h5 {
-    font-family: Roboto, sans-serif;
+h4 { /* REVIEWS */
+    font-family: Geologica, sans-serif;
     color: #841b2f;
 }
 
-h6 {
-    font-weight: bold;
-    color: #fff;
+h5 { /* NEWSLETTER */
+    font-family: Coiny, sans-serif;
+    color: #841b2f;
+    text-transform: uppercase;
+}
+
+h6 { /* FOOTER */
+    font-family: Coiny, sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: lighter;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    /* background-image: linear-gradient(to right, #240d8a, #3312C3, #DA2C4D); */
     background-image: linear-gradient(to bottom, rgba(105, 107, 121, 0.95), rgba(35, 22, 113, 0.95)), url("/img/rp-storefront.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -53,5 +61,43 @@ footer {
 }
 
 #didYouKnow {
-    background-color: #fdd9df;
+    background-color: #f8dfe3;
+}
+
+#aboutRP {
+    background-color: #f8dfe3;
+}
+
+.blue-button {
+    background-color: #3312C3;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px 28px;
+    border: 0;
+}
+
+.blue-button:hover {
+    background-color: #3312C3;
+    color: #d37f8e;
+    transition: 0.7s;
+}
+
+.pink-button {
+    background-color: #d37f8e;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px 28px;
+}
+
+.pink-button:hover {
+    background-color: #d37f8e;
+    color: #3312C3;
+    transition: 0.7s;
+}
+
+nav {
+    font-family: Coiny, sans-serif;
+    color: #240d8a;
+    text-transform: uppercase;
+    font-size: 18px;
 }

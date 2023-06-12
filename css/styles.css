@@ -46,12 +46,12 @@ h6 { /* FOOTER */
 }
 
 a {
-    color: #3312C3;
+    color: #fff;
 }
 
 a:hover {
     color: #3312C3;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 footer {
@@ -71,19 +71,7 @@ footer {
     color: #fff; 
 }
 
-.blue-button {
-    background-color: #3312C3;
-    color: #fff;
-    border-radius: 8px;
-    padding: 12px 28px;
-    border: 0;
-}
 
-.blue-button:hover {
-    background-color: #3312C3;
-    color: #F8438C;
-    transition: 0.7s;
-}
 
 .pink-button {
     background-color: #F8438C;
@@ -107,6 +95,28 @@ nav {
     background-color: #fff;
 }
 
+.nav-link {
+    color: #3312C3 !important; 
+}
+
+.nav-link:hover {
+    color: #F8438C !important; 
+}
+
+.blue-button {
+    background-color: #3312C3;
+    color: #fff !important;
+    border-radius: 8px;
+    padding: 12px 28px;
+    border: 0;
+}
+
+.blue-button:hover {
+    background-color: #3312C3;
+    color: #F8438C;
+    transition: 0.7s;
+}
+
 .popup {
     background-color: #ffffff;
     width: 450px;
@@ -116,7 +126,6 @@ nav {
     left: 50%;
     top: 60%;
     border-radius: 35px;
-    font-family: Geologica, sans-serif;
     display: none;
     text-align: center;
 }
@@ -124,7 +133,6 @@ nav {
 .popup p {
     font-size: 14px;
     margin: 20px 0;
-    line-height: 25px;
     text-align: left;
 }
 
@@ -138,5 +146,13 @@ nav {
 
 .carousel-caption {
     background-color: rgba(84, 84, 84, 0.5);
+}
+
+.merchLink a { /* Selects link in the class merchLink */
+    color: #3312C3;
+}
+
+.merchLink a:hover { 
+    text-decoration: underline;
 }
 

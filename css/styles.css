@@ -11,18 +11,19 @@ h1 {
 
 h2, h3 {
     font-family: Coiny, sans-serif;
-    color: #240d8a;
+    color: #3312C3;
     text-transform: uppercase;
 }
 
 h4 { /* REVIEWS */
     font-family: Geologica, sans-serif;
-    color: #841b2f;
+    color: #000;
+    font-size: 20px;
 }
 
 h5 { /* NEWSLETTER */
     font-family: Coiny, sans-serif;
-    color: #841b2f;
+    color: #3312C3;
     text-transform: uppercase;
 }
 
@@ -36,11 +37,11 @@ h6 { /* FOOTER */
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to bottom, rgba(105, 107, 121, 0.95), rgba(35, 22, 113, 0.95)), url("/img/rp-storefront.jpg");
+    background-image: linear-gradient(to bottom, rgba(105, 107, 121, 0.95), #1f0c74), url("/img/rp-storefront.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    background-color: #240d8a;
+    background-color: #270e97;
     color: white;
 }
 
@@ -56,16 +57,18 @@ a:hover {
 footer {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #841b2f, #d37f8e, #cda3aa);
+    background-image: linear-gradient(to right, #a00443, #d73d7a, #f3aeca);
     color: white;
 }
 
 #didYouKnow {
-    background-color: #f8dfe3;
+    background-color: #f86aa3;
+    color: #fff; 
 }
 
 #aboutRP {
-    background-color: #f8dfe3;
+    background-color: #f86aa3;
+    color: #fff; 
 }
 
 .blue-button {
@@ -78,19 +81,19 @@ footer {
 
 .blue-button:hover {
     background-color: #3312C3;
-    color: #d37f8e;
+    color: #F8438C;
     transition: 0.7s;
 }
 
 .pink-button {
-    background-color: #d37f8e;
+    background-color: #F8438C;
     color: #fff;
     border-radius: 8px;
     padding: 12px 28px;
 }
 
 .pink-button:hover {
-    background-color: #d37f8e;
+    background-color: #F8438C;
     color: #3312C3;
     transition: 0.7s;
 }
@@ -100,4 +103,43 @@ nav {
     color: #240d8a;
     text-transform: uppercase;
     font-size: 18px;
+    background-color: #fff;
+}
+
+.popup {
+    background-color: #fff;
+    width: 450px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: Geologica, sans-serif;
+    display: none;
+    text-align: center;
+}
+
+/* .popup button {
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: lightgray;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+} */
+
+.popup p {
+    font-size: 14px;
+    margin: 20px 0;
+    line-height: 25px;
+    text-align: left;
+}
+
+#close {
+    background-color: lightgray;
+    color: #000;
+    border-radius: 8px;
+    padding: 10px 15px;
+    border: 0;
 }

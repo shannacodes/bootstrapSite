@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: #ffffff">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
         <a class="navbar-brand" href="index.html">
             <img id="smallLogo" src="img/rp-transparentlogo.png" width="130" alt="Rolling Pin Donuts small logo" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarRp" aria-controls="navBarRp" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
                     <a class="nav-item nav-link active" href="index.html">Home</a>
                     <a class="nav-item nav-link" href="about.html">About</a>
                     <a class="nav-item nav-link" href="menu.html">Menu</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link" href="contact.html" data-toggle="tooltip" title="Call us at 805-482-8711">Contact</a>
                     <a class="nav-item nav-link btn blue-button text-white" style="font-size:18" href="https://www.clover.com/online-ordering/rolling-pin-donuts-camarillo" role="button">Order</a>
                 </div>
         </div>
@@ -68,51 +68,70 @@
             </div>
             <div class="col-md-6 p-4 order-sm-1">
                 <h2>Did you know?</h2>
-                <p>We've been voted "Best Donut Shop in Ventura County" for more than 10 consecutive years. </p>
+                <p>Rolling Pin Donuts has been voted "Best Donut Shop in Ventura County" for more than 10 consecutive years. </p>
                 <p>Give our warm and delicious donuts a taste today.</p>
             </div>
         </div>
     </div>
 
     <div class="container my-4">
+
         <div class="row">
-            <div class="col-md-6 p-5 text-center"> <!-- REVIEWS SLIDER -->
+            <div class="col-md-6 p-5 text-center"> <!-- CREATE REVIEWS SLIDER -->
                 <h4>
                     <p><em>"Top shelf donuts for sure... We especially love your cronuts, hybrid of croissant and donuts. Their simultaneous fluffiness and crunchiness is a combination of our deepest and most realest, sweet and salty cravings."</p>― Pau A., Yelp</em>
                 </h4>
             </div>
-            <div class="col-md-6 p-4 text-center"> <!-- SIGN-UP FOR NEWSLETTER FORM -->
-                <h5>Love Our Donuts?</h5>
-                <p class="px-4"><br>Sign-up for our newsletter and be first to know about new flavors, discounts, and promotions.</p><br>
-                <div class="container text-left">
-                    <form>
-                        <div class="form-group row">
-                            <div class="col-4">
-                                <label for="firstName">First Name: </label>
-                            </div>
-                            <div class="col-8">
-                                <input type="text" class="form-control" id="firstName" placeholder="Enter first name...">
-                            </div>
-                        </div>    
-                        <div class="form-group row">
-                            <div class="col-4">
-                                <label for="email">E-mail:</label>
-                            </div>
-                            <div class="col-8">
-                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email...">
-                            </div>
+        </div>
+    </div>
+
+    <div class="container"> <!-- CREATE CAROUSEL FOR MERCH -->
+        <div class="row align-items-center">
+            <div class="col-sm-4">
+                <img src="img/merch1.jpg" class="img-fluid rounded" alt="Powdered sugar croissant donuts with filling" max-width="100%" height="auto" />     
+            </div>
+            <div class="col-sm-4">
+                <img src="img/merch4.jpg" class="img-fluid rounded" alt="Powdered sugar croissant donuts with filling" max-width="100%" height="auto" />     
+            </div>
+            <div class="col-sm-4">
+                <img src="img/merch2.jpg" class="img-fluid rounded" alt="Powdered sugar croissant donuts with filling" max-width="100%" height="auto" />     
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5"> <!-- SIGN-UP FOR NEWSLETTER FORM -->
+        <div class="col text-center popup">
+            <button id="close" class="text-right">&times;</button><br><br>
+            <h3>Love Our Donuts?</h3>
+            <p class="px-4">Sign-up & be first to know about new flavors, discounts, and promotions.</p><br>
+            <div class="container text-left">
+                <form>
+                    <div class="form-group row">
+                        <div class="col-4">
+                            <label for="firstName">First Name: </label>
                         </div>
-                        <div class="form-check m-3 text-center">
-                            <input type="checkbox" class="form-check-input" id="optin" required>
-                            <label class="form-check-label" for="optin"><p style="font-size: 9pt">Yes, I would like to opt-in to receiving e-mails about updates, promotions and discounts from Rolling Pin Donuts.</p></label>
+                        <div class="col-8">
+                            <input type="text" class="form-control" id="firstName" placeholder="Enter first name..." required>
                         </div>
-                        <div class="form-group row">
-                            <div class="col form text-center">
-                                <button type="submit" class="blue-button">Submit</button>
-                            </div>
+                    </div>    
+                    <div class="form-group row">
+                        <div class="col-4">
+                            <label for="email">E-mail:</label>
                         </div>
-                    </form>
-                </div>
+                        <div class="col-8">
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email..." required>
+                        </div>
+                    </div>
+                    <div class="form-check m-3 text-center">
+                        <input type="checkbox" class="form-check-input" id="optin" required>
+                        <label class="form-check-label" for="optin"><p style="font-size: 9pt">Yes, I would like to opt-in to receiving e-mails about updates, promotions and discounts from Rolling Pin Donuts.</p></label>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col form text-center">
+                            <button type="submit" class="blue-button">Submit</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -131,15 +150,16 @@
                         <a href="index.html">Home</a>
                         <br><a href="about.html">About</a>
                         <br><a href="menu.html">Menu</a>
-                        <br><a href="#">Contact</a>
+                        <br><a href="contact.html">Contact</a>
                         <br><a href="https://www.clover.com/online-ordering/rolling-pin-donuts-camarillo">Order</a>
                 </div>
 
                 <div class="col-12 col-sm-4 text-left text-sm-center py-3">
                     <h6>Location</h6>
-                    2153 Las Posas Rd.
-                    <br>Camarillo, CA 93010
-                    <br><a href="tel:8054828711">(805) 482-8711</a>                 
+                    Rolling Pin Donuts<br>
+                    2153 Las Posas Rd.<br>
+                    Camarillo, CA 93010<br>
+                    <a href="tel:8054828711">(805) 482-8711</a>               
                 </div>
 
                 <div class="col-12 col-sm-4 text-sm-center py-3">
@@ -156,5 +176,6 @@
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+  <script src="js/scripts.js"></script>
 </body>
 </html>

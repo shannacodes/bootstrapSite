@@ -7,7 +7,7 @@ window.addEventListener("load", function(){ // Newsletter pop-up
         function open(event){
             document.querySelector(".popup").style.display = "block";
         },
-        30000 // Timer is for 30 seconds
+        20000 // Timer is for 20 seconds -- I want to figure out a way to only send this once every week
     )
 });
 

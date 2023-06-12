@@ -37,20 +37,20 @@ h6 { /* FOOTER */
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to bottom, rgba(105, 107, 121, 0.95), #1f0c74), url("/img/rp-storefront.jpg");
+    background-image: linear-gradient(to bottom, rgba(112, 115, 133, 0.95), #1f0c74), url("/img/rp-storefront.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    background-color: #270e97;
+    background-color: #3312C3;
     color: white;
 }
 
 a {
-    color: #240d8a;
+    color: #3312C3;
 }
 
 a:hover {
-    color: #240d8a;
+    color: #3312C3;
     text-decoration: underline;
 }
 
@@ -89,6 +89,7 @@ footer {
     background-color: #F8438C;
     color: #fff;
     border-radius: 8px;
+    border: 0;
     padding: 12px 28px;
 }
 
@@ -100,34 +101,25 @@ footer {
 
 nav {
     font-family: Coiny, sans-serif;
-    color: #240d8a;
+    color: #3312C3;
     text-transform: uppercase;
     font-size: 18px;
     background-color: #fff;
 }
 
 .popup {
-    background-color: #fff;
+    background-color: #ffffff;
     width: 450px;
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
-    top: 50%;
-    border-radius: 8px;
+    top: 60%;
+    border-radius: 35px;
     font-family: Geologica, sans-serif;
     display: none;
     text-align: center;
 }
-
-/* .popup button {
-    display: block;
-    margin:  0 0 20px auto;
-    background-color: lightgray;
-    font-size: 30px;
-    color: #000;
-    cursor: pointer;
-} */
 
 .popup p {
     font-size: 14px;
@@ -137,9 +129,14 @@ nav {
 }
 
 #close {
-    background-color: lightgray;
-    color: #000;
+    background-color: #3312C3;
+    color: #fff;
     border-radius: 8px;
     padding: 10px 15px;
     border: 0;
 }
+
+.carousel-caption {
+    background-color: rgba(84, 84, 84, 0.5);
+}
+

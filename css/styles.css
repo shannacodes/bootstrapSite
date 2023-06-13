@@ -181,3 +181,15 @@ hr {
 .contactPhone a:hover { 
     text-decoration: underline;
 }
+
+.navSocial a {
+    color: #3312C3;  
+}
+
+.navSocial a:hover {
+    color: #F8438C;  
+}
+
+.navbar-nav .active {
+    color: #F8438C !important;     
+}

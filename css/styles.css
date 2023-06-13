@@ -173,3 +173,11 @@ hr {
 #fullMenu span {
     color: #8a8a8a
 }
+
+.contactPhone a { /* Selects link in the class contactPhone in contact.html */
+    color: #000000;
+}
+
+.contactPhone a:hover { 
+    text-decoration: underline;
+}

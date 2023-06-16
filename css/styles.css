@@ -37,7 +37,7 @@ h6 { /* FOOTER */
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to bottom, rgba(112, 115, 133, 0.95), #1f0c74), url("/img/rp-storefront.jpg");
+    background-image: linear-gradient(to bottom, rgba(130, 134, 155, 0.93), #1f0b78), url("/img/rp-storefront.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -52,6 +52,7 @@ a {
 a:hover {
     color: #3312C3;
     text-decoration: none;
+    transition: 0.7s;
 }
 
 footer {
@@ -107,8 +108,9 @@ nav {
     background-color: #3312C3;
     color: #fff !important;
     border-radius: 8px;
-    padding: 12px 28px;
+    padding: 12px 15px !important;
     border: 0;
+    font-size: 20px !important; 
 }
 
 .blue-button:hover {
@@ -157,7 +159,8 @@ nav {
 }
 
 .merchLink a:hover { 
-    text-decoration: underline;
+    transition: 0.7s;
+    color: #F8438C;
 }
 
 #fullMenu h3 {

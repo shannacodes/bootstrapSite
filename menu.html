@@ -29,16 +29,16 @@
             </button> 
         <div class="collapse navbar-collapse navSocial" id="navBarRp">
                 <div class="navbar-nav ml-auto"> <!-- ml-auto aligns navbar links to the RIGHT -->
-                    <a class="nav-item nav-link" href="index.html">Home</a>
-                    <a class="nav-item nav-link" href="about.html">About</a>
-                    <a class="nav-item nav-link active" href="menu.html">Menu</a>
-                    <a class="nav-item nav-link" href="contact.html" data-toggle="tooltip" title="Call us at 805-482-8711">Contact</a>
-                    <a class="nav-item nav-link btn blue-button text-white" href="https://www.clover.com/online-ordering/rolling-pin-donuts-camarillo" role="button" target="_blank">Order</a>
+                    <a class="nav-item nav-link grow" href="index.html">Home</a>
+                    <a class="nav-item nav-link grow" href="about.html">About</a>
+                    <a class="nav-item nav-link active grow" href="menu.html">Menu</a>
+                    <a class="nav-item nav-link grow" href="contact.html" data-toggle="tooltip" title="Call us at 805-482-8711">Contact</a>&nbsp;&nbsp;
+                    <a class="nav-item nav-link btn blue-button text-white grow" href="https://www.clover.com/online-ordering/rolling-pin-donuts-camarillo" role="button" target="_blank">Order</a>
                     <ul class="navbar-nav m-auto text-center">
                         <li class="nav-item">
-                            <a class="nav-item nav-link" href="https://www.facebook.com/RollingPinCamarillo/" style="font-size:25px"> <i class="fa fa-facebook"></i></a></li>
+                            <a class="nav-item nav-link grow" href="https://www.facebook.com/RollingPinCamarillo/" style="font-size:25px"> &nbsp; <i class="fa fa-facebook"></i></a></li>
                         <li class="nav-item">
-                            <a class="nav-item nav-link" href="https://www.instagram.com/rollingpin.camarillo/" style="font-size:25px"> <i class="fa fa-instagram"></i></a></h5>
+                            <a class="nav-item nav-link grow" href="https://www.instagram.com/rollingpin.camarillo/" style="font-size:25px">&nbsp;<i class="fa fa-instagram"></i></a></h5>
                         </li>
                     </ul>
                 </div>
@@ -50,9 +50,8 @@
             <h1 class="display-4">ROLLING PIN DONUTS</h1>
             <p class="lead">You deserve a donut.</p><br><br>
             <p class="lead">
-                <a class="btn btn-lg pink-button" href="https://www.clover.com/online-ordering/rolling-pin-donuts-camarillo" role="button" target="_blank">ORDER ONLINE</a>
+                <a class="btn btn-lg pink-button grow" href="https://www.clover.com/online-ordering/rolling-pin-donuts-camarillo" role="button" target="_blank">ORDER ONLINE</a>
             </p>
-          </div>
         </div>
     </header>
 
@@ -72,62 +71,72 @@
     <div class="container p-5 text" id="fullMenu">
         <div class="row">
             <div class="col-12">
-                <h2 class="my-3 display-4">MENU</h2><hr>
-                <!-- BREAK DONUTS -->
-                <div class="text-center p-4">
-                    <h3>DONUTS</h3>
+                <h2 class="my-3 display-4">MENU</h2>
+            </div>
+            <div class="col-12 text-center" id="menuButtons">
+                <button class="blue-button" type="button" data-toggle="collapse" data-target="#donutMenu" aria-expanded="true" aria-controls="collapseMenu">DONUTS</button>
+                <button class="blue-button" type="button" data-toggle="collapse" data-target="#specialMenu" aria-expanded="false" aria-controls="collapseMenu">SPECIALTY</button>
+                <button class="blue-button" type="button" data-toggle="collapse" data-target="#coffeeMenu" aria-expanded="false" aria-controls="collapseMenu">COFFEE + BEVERAGES</button>
+            </div>
+            <!-- BREAK DONUTS -->
+            <div class="col-12 collapse" id="donutMenu">
+                <div class="text-center py-5">
+                    <h3>DONUTS</h3> 
                 </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-4">
-                        <div class="item">
-                            <h4>Cake, Mini Jellies, Devil's Food</h4>
-                            <span></span>
-                            <span>$0.90</span>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="item">
+                                <h4>Cake, Mini Jellies, Devil's Food</h4>
+                                <span></span>
+                                <span>$0.90</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="item">
-                            <h4>Old Fashioned and Raised Rounds</h4>
-                            <span></span>
-                            <span>$1.00</span>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="item">
+                                <h4>Old Fashioned and Raised Rounds</h4>
+                                <span></span>
+                                <span>$1.00</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="item">
-                            <h4>Buttermilk Bars</h4>
-                            <span></span>
-                            <span>$1.15</span>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="item">
+                                <h4>Buttermilk Bars</h4>
+                                <span></span>
+                                <span>$1.15</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="item">
-                            <h4>Twists</h4>
-                            <span></span>
-                            <span>$1.15</span>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="item">
+                                <h4>Twists</h4>
+                                <span></span>
+                                <span>$1.15</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="item">
-                            <h4>Chocolate or Maple Bars</h4>
-                            <span></span>
-                            <span>$1.15</span>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="item">
+                                <h4>Chocolate or Maple Bars</h4>
+                                <span></span>
+                                <span>$1.15</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="item">
-                            <h4>Jelly Filled</h4>
-                            <span></span>
-                            <span>$1.25</span>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="item">
+                                <h4>Jelly Filled</h4>
+                                <span></span>
+                                <span>$1.25</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="item">
-                            <h4>Mini Donut Fancies</h4>
-                            <span></span>
-                            <span>$1.25</span>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="item">
+                                <h4>Mini Donut Fancies</h4>
+                                <span></span>
+                                <span>$1.25</span>
+                            </div>
                         </div>
                     </div>
                 </div>
+
                 <!-- BREAK FANCIES -->
                 <div class="text-center p-4">
                     <h3>FANCIES</h3>
@@ -238,10 +247,14 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
                 <!-- BREAK SPECIALTIES -->
-                <div class="text-center p-4">
-                    <h3>SPECIALTY</h3>
-                </div>
+            <div class="col-12 collapse" id="specialMenu">
+                    <div class="text-center py-5">
+                        <h3>SPECIALITES</h3>
+                    </div>
+
                 <div class="row">
                     <div class="col-sm-6 col-md-4">
                         <div class="item">
@@ -272,8 +285,11 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
                 <!-- BREAK COFFEE -->
-                <div class="text-center p-4">
+            <div class="col-12 collapse" id="coffeeMenu">
+                <div class="text-center p-5">
                     <h3>COFFEE</h3>
                 </div>
                 <div class="row">
@@ -320,6 +336,7 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- BEVERAGES -->
                 <div class="text-center p-4">
                     <h3>BEVERAGES</h3>
@@ -369,6 +386,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
 

@@ -58,32 +58,34 @@ a:hover {
 footer {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #a00443, #d73d7a, #f3aeca);
+    background-image: linear-gradient(to right, #90001f, #3c3362, #1f0b78);
     color: white;
 }
 
 #didYouKnow {
-    background-color: #f86aa3;
+    background-color: #CB022E;
     color: #fff; 
 }
 
 #aboutRP {
-    background-color: #f86aa3;
+    background-color: #CB022E;
     color: #fff; 
 }
 
 
 
 .pink-button {
-    background-color: #F8438C;
+    background-color: #CB022E;
     color: #fff;
     border-radius: 8px;
     border: 0;
     padding: 12px 28px;
+    font-family: Coiny, sans-serif;
+    font-transform: uppercase;
 }
 
 .pink-button:hover {
-    background-color: #F8438C;
+    background-color: #CB022E;
     color: #3312C3;
     transition: 0.7s;
 }
@@ -101,7 +103,7 @@ nav {
 }
 
 .nav-link:hover {
-    color: #F8438C !important; 
+    color: #CB022E !important; 
 }
 
 .blue-button {
@@ -111,11 +113,12 @@ nav {
     padding: 12px 15px !important;
     border: 0;
     font-size: 20px !important; 
+    font-family: Coiny, sans-serif;
 }
 
 .blue-button:hover {
     background-color: #3312C3;
-    color: #F8438C;
+    color: #CB022E;
     transition: 0.7s;
 }
 
@@ -131,7 +134,7 @@ nav {
     display: none;
     text-align: center;
     border-width: 8px;
-    border-color: #F8438C;
+    border-color: #CB022E;
     border-style: solid;
 }
 
@@ -160,11 +163,11 @@ nav {
 
 .merchLink a:hover { 
     transition: 0.7s;
-    color: #F8438C;
+    color: #CB022E;
 }
 
 #fullMenu h3 {
-    color: #F8438C; 
+    color: #CB022E; 
 }
 
 hr {
@@ -182,7 +185,7 @@ hr {
 }
 
 .contactPhone a:hover { 
-    text-decoration: underline;
+    text-decoration:underline;
 }
 
 .navSocial a {
@@ -190,9 +193,30 @@ hr {
 }
 
 .navSocial a:hover {
-    color: #F8438C;  
+    color: #CB022E;  
 }
 
 .navbar-nav .active {
-    color: #F8438C !important;     
+    color: #CB022E !important;     
+}
+
+.grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.08); 
+}
+
+#rpDiff {
+    background-color: #3312C3;
+    color: #fff; 
+}
+
+#whiteTitle {
+    color: #fff;
+}
+
+#menuButtons {
+    line-height: 20px;
 }

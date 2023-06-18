@@ -58,16 +58,14 @@
     <!-- <div class="container p-5">
         <div class="row align-items-center">
             <div class="col-12 text-center">
-                <img src="img/colorfuldonuts1.jpg" class="img-fluid rounded" alt="Various sprinkled donuts" width="70%" height="auto" /> 
+                <img src="img/colorfuldonuts1.jpg" class="img-fluid rounded" alt="Various sprinkled donuts" width="50%" height="auto" /> 
             </div>
         </div>
     </div> -->
 
     <!-- "BROWSE CUSTOMER FAVES" -->
 
-
-    <!-- FULL MENU - I PLAN TO USE COLLAPSE FEATURE -->
-
+    <!-- MENU-->
     <div class="container p-5 text" id="fullMenu">
         <div class="row">
             <div class="col-12">
@@ -75,11 +73,12 @@
             </div>
             <div class="col-12 text-center" id="menuButtons">
                 <p>Click below to browse our selections.</p>
-                <button class="btn blueSmall-button grow" type="button" data-toggle="collapse" data-target="#donutMenu" aria-expanded="false" aria-controls="collapseMenu">DONUTS</button>
-                <button class="btn blueSmall-button grow" type="button" data-toggle="collapse" data-target="#specialMenu" aria-expanded="false" aria-controls="collapseMenu">SPECIALTY</button>
-                <button class="btn blueSmall-button grow" type="button" data-toggle="collapse" data-target="#coffeeMenu" aria-expanded="false" aria-controls="collapseMenu">COFFEE + BEVERAGES</button>
+                <button class="btn blueSmall-button grow" type="button" data-toggle="collapse" data-target="#donutMenu" aria-expanded="false" aria-controls="collapseMenu">DONUTS</button>&nbsp;
+                <button class="btn blueSmall-button grow" type="button" data-toggle="collapse" data-target="#specialMenu" aria-expanded="false" aria-controls="collapseMenu">SPECIALTIES</button>&nbsp;
+                <button class="btn blueSmall-button grow" type="button" data-toggle="collapse" data-target="#coffeeMenu" aria-expanded="false" aria-controls="collapseMenu">COFFEE + BEVERAGES</button>&nbsp;
+                <button class="btn blueSmall-button grow" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="#donutMenu #specialMenu #coffeeMenu">FULL MENU</button>
             </div>
-            <div class="col-12 collapse" id="donutMenu"> <!-- BREAK DONUTS -->
+            <div class="col-12 collapse multi-collapse" id="donutMenu"> <!-- BREAK DONUTS -->
                 <div class="text-center p-5">
                     <h3>DONUTS</h3> 
                 </div>
@@ -134,7 +133,6 @@
                             </div>
                         </div>
                     </div>
-
                 <div class="text-center p-4"> <!-- BREAK FANCIES -->
                     <h3>FANCIES</h3>
                 </div>
@@ -189,7 +187,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="text-center p-4">  <!-- BREAK BY DOZENS -->
                     <h3>BY DOZENS</h3>
                 </div>
@@ -245,9 +242,7 @@
                     </div>
                 </div>
             </div>
-
-                <!-- BREAK SPECIALTIES -->
-            <div class="col-12 collapse" id="specialMenu">
+            <div class="col-12 collapse multi-collapse" id="specialMenu"> <!-- BREAK SPECIALTIES -->
                     <div class="text-center py-5">
                         <h3>SPECIALITES</h3>
                     </div>
@@ -283,9 +278,7 @@
                     </div>
                 </div>
             </div>
-
-                <!-- BREAK COFFEE -->
-            <div class="col-12 collapse" id="coffeeMenu">
+            <div class="col-12 collapse multi-collapse" id="coffeeMenu"> <!-- BREAK COFFEE; multi-collapse shows multiple collapse classes at once -->
                 <div class="text-center p-5">
                     <h3>COFFEE</h3>
                 </div>
@@ -333,9 +326,7 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- BEVERAGES -->
-                <div class="text-center p-4">
+                <div class="text-center p-4"> <!-- BEVERAGES -->
                     <h3>BEVERAGES</h3>
                 </div>
                 <div class="row">

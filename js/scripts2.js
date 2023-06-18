@@ -1,4 +1,10 @@
 $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();   
+    $('[data-toggle="tooltip"]').tooltip();
+    
+    // When blueSmall-button is clicked, it collapses everything that is not set to the data-target.
+    $(".blueSmall-button").click(function() {
+      var target = $(this).data("target");
+      $(".collapse").not(target).collapse("hide");
+    });
 });
 

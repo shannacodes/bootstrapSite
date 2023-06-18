@@ -218,5 +218,22 @@ transform: scale(1.08);
 }
 
 #menuButtons {
-    line-height: 20px;
+    line-height: 60px;
 }
+
+.blueSmall-button {
+    background-color: #3312C3;
+    color: #fff !important;
+    border-radius: 8px;
+    padding: 10px 15px !important;
+    border: 0;
+    font-size: 18px !important; 
+    font-family: Coiny, sans-serif;
+}
+
+.blueSmall-button:hover {
+    background-color: #3312C3 !important;
+    color: #CB022E !important;
+    transition: 0.7s !important;
+}
+

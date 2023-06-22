@@ -241,3 +241,11 @@ transform: scale(1.08);
     transition: 0.7s !important;
 }
 
+.carouselFaves {
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.carousel-caption {
+    background: rgba(70, 70, 70, 0.38);
+}

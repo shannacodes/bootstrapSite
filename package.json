@@ -1,7 +1,7 @@
 {
   "name": "bootstrapsite",
   "version": "1.0.0",
-  "description": "This is my first solo project site using Bootstrap",
+  "description": "Rolling Pin Donuts",
   "main": "index.html",
   "scripts": {
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
@@ -29,6 +29,7 @@
   "dependencies": {
     "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
+    "firebase": "^9.23.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"

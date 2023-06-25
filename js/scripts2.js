@@ -8,9 +8,8 @@ $(document).ready(function(){
 
     // Shows only the corresponding menu section when a specific button is clicked
     $(".menu-btn").click(function() {
-      let target = $(this).data("target");
+      var target = $(this).data("target");
       $(".collapse").collapse("hide");
       $(target).collapse("show");
     });
-});
-
+})
